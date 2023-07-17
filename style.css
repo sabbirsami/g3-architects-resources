@@ -13,6 +13,9 @@ body {
 .img-fluid {
     width: 100%;
 }
+.section-title {
+    font-size: 45px;
+}
 .btn-primary {
     background-color: #ff900e;
     border-radius: 0.5rem;
@@ -66,8 +69,7 @@ header .banner p {
 
 /* TEAM SECTION START  */
 .team-section .team-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     align-items: center;
     padding: 5rem;
     justify-content: space-between;
@@ -80,9 +82,25 @@ header .banner p {
 .team-section .team-text {
     padding-left: 50px;
 }
-.team-section .team-container h2 {
-    font-size: 2.5rem;
-}
 .team-section .team-container p {
     padding: 1.5rem 0rem;
 }
+/* FEATURE SECTION START */
+/* FACTS SECTION START */
+.facts-section .facts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.facts-section > p {
+    padding: 1rem 0rem;
+}
+.facts-section .facts .fact {
+    border: 1px solid #ff900e;
+    padding: 30px;
+    text-align: center;
+}
+
+/* SPONSORS SECTION START */
+/* FOOTER SECTION START */
