@@ -5,17 +5,29 @@
 body {
     font-family: "Work Sans", sans-serif;
 }
+/* COMMON STYLES  */
 .container {
     max-width: 1320px;
     margin: 0 auto;
 }
+.img-fluid {
+    width: 100%;
+}
+.btn-primary {
+    background-color: #ff900e;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: 0;
+    font-size: 18px;
+}
+
 header {
     background-color: #fff4e7;
 }
-
 /* NAV SECTION START  */
 header .container nav h2 {
-    font-size: 35px;
+    font-size: 2.6rem;
 }
 header .container nav {
     display: flex;
@@ -29,17 +41,25 @@ header .container nav ul {
 header .container nav ul li {
     text-decoration: none;
     list-style: none;
+    padding-left: 35px;
 }
 header .container nav ul a {
-    padding: 15px 35px;
     text-decoration: none;
     color: #000;
     font-family: Work Sans, sans-serif;
-    border: 1px solid black;
 }
 
 /* BANNER SECTION START  */
 header .banner {
     padding: 50px 0;
     text-align: center;
+}
+header .banner-container {
+    padding: 35px 0px 50px 0px;
+}
+header .banner h1 {
+    font-size: 3.5rem;
+}
+header .banner p {
+    padding: 1.4rem;
 }
