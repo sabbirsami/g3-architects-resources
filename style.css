@@ -103,4 +103,21 @@ header .banner p {
 }
 
 /* SPONSORS SECTION START */
+
+.sponsors-section {
+    text-align: center;
+}
+.sponsors-section .sponsors-text {
+    padding: 50px 0;
+}
+.sponsors-section .sponsors-text p {
+    padding: 1rem 0rem;
+}
+.sponsors-section .company {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    filter: grayscale(100%);
+}
+
 /* FOOTER SECTION START */
